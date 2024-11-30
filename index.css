@@ -1,0 +1,22 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.div-container{
+    display: flex;
+    gap:45px;
+    justify-content:center;
+    text-decoration: none;
+}
+.big-container{
+  
+    height: 25px;
+    background-color: rgba(128, 128, 128, 0.256);
+}
+.logo{
+    margin-left: 100px;
+  display: flex;
+  margin-top: -22px;
+}
+

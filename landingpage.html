@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Pizza Delight</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="header">
+    <div class="logo">🍕 Pizza Delight</div>
+    <nav class="nav">
+      <a href="#about">About Us</a>
+      <a href="#description">Our Pizzas</a>
+      <a href="#feedback">Feedback</a>
+      <a href="#contact">Contact Us</a>
+    </nav>
+  </header>
+
+  <section id="hero" class="hero">
+    <h1>Welcome to Pizza Delight</h1>
+    <p>Your one-stop destination for delicious, handcrafted pizzas!</p>
+    <button onclick="scrollToSection('about')">Explore Now</button>
+  </section>
+
+  <section id="about" class="section">
+    <h1>About Us</h1>
+    <div class="content">
+      <img src="https://via.placeholder.com/400x300" alt="Pizza Chef">
+      <p>At Pizza Delight, we combine traditional recipes with modern flavors to create an unforgettable pizza experience. Fresh ingredients, hand-tossed dough, and passion make every bite special.</p>
+    </div>
+  </section>
+
+  <section id="description" class="section">
+    <h1>Our Pizzas</h1>
+    <div class="grid">
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Margherita Pizza">
+        <h2>Margherita</h2>
+        <p>A classic delight with fresh mozzarella, tomatoes, and basil.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Pepperoni Pizza">
+        <h2>Pepperoni</h2>
+        <p>A fan-favorite loaded with spicy pepperoni and cheese.</p>
+      </div>
+      <div class="card">
+        <img src="https://via.placeholder.com/300x200" alt="Veggie Pizza">
+        <h2>Veggie</h2>
+        <p>A wholesome option packed with garden-fresh vegetables.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="feedback" class="section">
+    <h1>Feedback</h1>
+    <form class="feedback-form">
+      <label for="name">Name:</label>
+      <input type="text" id="name" name="name" placeholder="Enter your name" required>
+      
+      <label for="message">Message:</label>
+      <textarea id="message" name="message" placeholder="Share your experience..." rows="5" required></textarea>
+      
+      <button type="submit">Submit</button>
+    </form>
+  </section>
+
+  <section id="contact" class="section">
+    <h1>Contact Us</h1>
+    <p>Email: contact@pizzadelight.com</p>
+    <p>Phone: +123 456 7890</p>
+    <p>Address: 123 Pizza Street, Flavor Town, USA</p>
+  </section>
+
+  <footer class="footer">
+    <p>&copy; 2024 Pizza Delight. All Rights Reserved.</p>
+  </footer>
+  <script src="script.js"></script>
+</body>
+</html>
